@@ -1,0 +1,77 @@
+:root {
+  font-size: 62.5%;
+
+  --hue: 240;
+  
+  --tc-primary: hsl(var(--hue), 6%, 21%);
+
+  --bg-color: hsla(var(--hue), 0%, 100%, 1); 
+  --bg-audio: hsla(var(--hue), 9%, 89%, 1);
+  --bg-audio-active: #02799D;
+
+  --ff-primary: 'Roboto', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  margin-top: -10rem;
+  height: 100vh;
+
+  color: var(--tc-primary);
+  font-family: var(--ff-primary);
+  background-color: var(--bg-color);
+}
+
+main {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 20rem;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#timer span {
+  font-size: 12.6rem;
+}
+
+#timer .controllers {
+  display: flex;
+  justify-content: space-between;
+} 
+
+#audio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+}
+
+#audio button {
+  padding: 4.8rem;
+  background-color: var(--bg-audio);
+  
+  border-radius: 2.4rem;
+  transition: filter 700ms;
+}
+
+#audio button:hover {
+  filter: opacity(.5);
+}
+
+#audio button.active{
+  background-color: var(--bg-audio-active);
+}
+
+#audio button.active svg path {
+  fill: white;
+}
