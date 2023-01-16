@@ -44,7 +44,7 @@ function countdown(minutes, seconds) {
       seconds.textContent = seconds.textContent.padStart(2, '0');
     }
 
-  }, 1);
+  }, 1000);
 }
 
 function handleStartCountdownClick() {
@@ -56,12 +56,12 @@ function handleStopCountdownClick() {
 }
 
 function handleAddMinutesClick() {
-  minutesDisplay.textContent = Number(minutesDisplay.textContent) + 15;
+  minutesDisplay.textContent = Number(minutesDisplay.textContent) + 5;
 }
 
 function handleRmMinutesClick() {
-  if (minutesDisplay.textContent > 15) {
-    minutesDisplay.textContent = Number(minutesDisplay.textContent) - 15;
+  if (minutesDisplay.textContent > 5) {
+    minutesDisplay.textContent = Number(minutesDisplay.textContent) - 5;
   }
 }
 
