@@ -30,6 +30,12 @@ main {
   gap: 20rem;
 }
 
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 #timer span {
   font-size: 12.6rem;
 }
@@ -37,13 +43,7 @@ main {
 #timer .controllers {
   display: flex;
   justify-content: space-between;
-}
-
-#timer .controllers button {
-  cursor: pointer;
-  background: none;
-  border: none;
-}
+} 
 
 #audio {
   display: grid;
@@ -51,24 +51,22 @@ main {
   gap: 3.2rem;
 }
 
-#audio > div {
+#audio button {
   padding: 4.8rem;
   background-color: var(--bg-audio);
   
   border-radius: 2.4rem;
-  cursor: pointer;
-
   transition: filter 700ms;
 }
 
-#audio > div:hover {
+#audio button:hover {
   filter: opacity(.5);
 }
 
-#audio > div.active{
+#audio button.active{
   background-color: var(--bg-audio-active);
 }
 
-#audio > div.active svg path {
+#audio button.active svg path {
   fill: white;
 }
