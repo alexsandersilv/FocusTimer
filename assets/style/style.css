@@ -27,6 +27,18 @@ body {
   background-color: var(--bg-color);
 }
 
+#theme {
+  position: absolute;
+  top: 6rem;
+  right: 6rem;
+
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
 main {
   display: grid;
   align-items: center;
@@ -59,6 +71,7 @@ button {
   display: flex;
   justify-content: space-around;
 }
+
 #audio {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -88,4 +101,21 @@ button {
 
 #audio button.active svg path {
   fill: white;
+}
+
+.darkTheme {
+  background: #121214;
+  color: white;
+}
+
+.darkTheme  button svg path {
+  fill: #C4C4CC;
+}
+
+.darkTheme #audio button {
+  background-color: #29292E;
+}
+
+.darkTheme #audio button.active {
+  background-color: #0A3442;
 }

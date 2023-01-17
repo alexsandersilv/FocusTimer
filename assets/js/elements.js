@@ -1,3 +1,7 @@
+export const themeButton = document.querySelector("#theme");
+export const dayThemeButton = document.querySelector(".day");
+export const nightThemeButton = document.querySelector(".night");
+
 export const minutesDisplay = document.querySelector("#timer .minutes");
 export const secondsDisplay = document.querySelector("#timer .seconds");
 

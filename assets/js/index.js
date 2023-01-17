@@ -1,4 +1,5 @@
 import { 
+  themeButton, dayThemeButton, nightThemeButton,
   startCountdownButton, stopCountdownButton, addMinutesToCountdown, rmMinutesToCountdown,
   forestButton, rainButton, coffeeShopButton, bonfireButton,
   forestVolumeInput, rainVolumeInput, coffeeShopVolumeInput, bonfireVolumeInput
@@ -10,6 +11,8 @@ import {
   handleForestButtonClick, handleRainButtonClick, handleCoffeeShopButtonClick, handleBonfireButtonClick,
   handleForestButtonChange, handleRainButtonChange, handleCoffeeShopButtonChange, handleBonfireButtonChange
 } from './controllers/audioController.js';
+
+import { handleThemeDayClick, handleThemeNightClick } from './controllers/themeController.js';
 
 startCountdownButton.addEventListener('click', handleStartCountdownClick);
 stopCountdownButton.addEventListener('click', handleStopCountdownClick);
@@ -25,3 +28,7 @@ forestVolumeInput.addEventListener("change", handleForestButtonChange);
 rainVolumeInput.addEventListener("change", handleRainButtonChange);
 coffeeShopVolumeInput.addEventListener("change", handleCoffeeShopButtonChange);
 bonfireVolumeInput.addEventListener("change", handleBonfireButtonChange);
+
+
+dayThemeButton.addEventListener("click", handleThemeDayClick);
+nightThemeButton.addEventListener("click", handleThemeNightClick);
