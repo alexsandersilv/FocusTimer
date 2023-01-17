@@ -1,4 +1,6 @@
-import { forestButton, rainButton, coffeeShopButton, bonfireButton } from '../elements.js';
+import { 
+  forestButton, rainButton, coffeeShopButton, bonfireButton,
+} from '../elements.js';
 
 const forestAudio = new Audio("/assets/sounds/forest.wav");
 const rainAudio = new Audio("/assets/sounds/rain.wav");
@@ -69,4 +71,20 @@ export function handleBonfireButtonClick() {
   getElementToActiveClass();
   bonfireButton.classList.add('active');
   playMusic("bonfire");
+}
+
+export function handleForestButtonChange(event) {
+  forestAudio.volume = event.currentTarget.value / 100;
+}
+
+export function handleRainButtonChange(event) {
+  rainAudio.volume = event.currentTarget.value / 100;;
+}
+
+export function handleCoffeeShopButtonChange(event) {
+  coffeeShopAudio.volume = event.currentTarget.value / 100;;
+}
+
+export function handleBonfireButtonChange(event) {
+  bonfireAudio.volume = event.currentTarget.value / 100;;
 }
