@@ -52,7 +52,9 @@ export function handleStopCountdownClick() {
 }
 
 export function handleAddMinutesClick() {
-  minutesDisplay.textContent = Number(minutesDisplay.textContent) + 5;
+  if (minutesDisplay.textContent <= 54) {
+    minutesDisplay.textContent = Number(minutesDisplay.textContent) + 5;
+  }
 }
 
 export function handleRmMinutesClick() {
