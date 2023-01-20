@@ -144,7 +144,7 @@ button {
 
 @media (max-width: 1220px) {
   body {
-    padding: 2rem;
+    padding: 3rem;
   }
 
   #timer span {
@@ -194,7 +194,7 @@ button {
   }
 
   #audio button {
-    padding: 2.5rem;
+    padding: 2rem;
   }
 
 }
