@@ -52,7 +52,7 @@ Pomodoro with various features to increase your performance on a daily basis.
 
 <div>
  <img src="./.github/img/%20small.png" width="45%"   />
- <img src="./.github/img/smallDark.png" width="45%" height="320vh"/>
+ <img src="./.github/img/smallDark.png" width="45%" />
 </div>
 
 ### max-width: 1000px
