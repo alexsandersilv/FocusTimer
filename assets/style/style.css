@@ -2,15 +2,16 @@
   font-size: 62.5%;
 
   --hue: 240;
-  
+
   --tc-primary: hsl(var(--hue), 6%, 21%);
 
-  --bg-color: hsla(var(--hue), 0%, 100%, 1); 
+  --bg-color: hsla(var(--hue), 0%, 100%, 1);
   --bg-audio: hsla(var(--hue), 9%, 89%, 1);
   --bg-audio-active: #02799D;
 
   --ff-primary: 'Roboto', sans-serif;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +19,7 @@
 }
 
 body {
+  font-size: 1.6rem;
   display: grid;
   place-content: center;
   height: 100vh;
@@ -64,10 +66,8 @@ button {
   font-size: 12.6rem;
 }
 
-
 #timer .controllers {
   width: 80%;
-
   display: flex;
   justify-content: space-around;
 }
@@ -81,7 +81,7 @@ button {
 #audio button {
   padding: 4.8rem;
   background-color: var(--bg-audio);
-  
+
   border-radius: 2.4rem;
   transition: filter 700ms;
 
@@ -95,7 +95,7 @@ button {
   filter: opacity(.5);
 }
 
-#audio button.active{
+#audio button.active {
   background-color: var(--bg-audio-active);
 }
 
@@ -114,7 +114,7 @@ button {
 }
 
 .darkTheme #audio button input::-webkit-slider-runnable-track {
-  background-color: #C4C4CC;  
+  background-color: #C4C4CC;
   height: .7rem;
   width: 100%;
   border-radius: 2px solid;
@@ -127,9 +127,7 @@ button {
   margin-top: -.4rem;
 }
 
-
-
-.darkTheme  button svg path {
+.darkTheme button svg path {
   fill: #C4C4CC;
 }
 
@@ -139,4 +137,64 @@ button {
 
 .darkTheme #audio button.active {
   background-color: #0A3442;
+}
+
+
+/** responsive **/
+
+@media (max-width: 1220px) {
+  body {
+    padding: 2rem;
+  }
+
+  #timer span {
+    font-size: 10.6rem;
+  }
+
+  #timer .controllers {
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  #audio {
+    gap: 2rem;
+  }
+
+  #audio button {
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  #theme {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+
+    cursor: pointer;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  #timer span {
+    font-size: 8.6rem;
+  }
+
+  #audio {
+    gap: 1.5rem;
+  }
+
+  #audio button {
+    padding: 2.5rem;
+  }
+
 }
