@@ -1,41 +1,82 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+#theme {
+  position: absolute;
+  top: 6rem;
+  right: 6rem;
+
+  cursor: pointer;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#timer span {
+  font-size: 12.6rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+#timer .controllers {
+  display: flex;
+  gap: 3rem;
 }
 
-.card {
-  padding: 2em;
+/** Audio Style */
+#audio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
 }
 
-.read-the-docs {
-  color: #888;
+#audio button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+  
+  padding: 4.8rem;
+  background-color: var(--bg-audio);
+
+  border-radius: 2.4rem;
+  transition: filter 700ms;
+}
+
+#audio button:hover {
+  filter: opacity(.5);
+}
+
+#audio button.active {
+  background-color: var(--bg-audio-active);
+}
+
+#audio button.active svg path {
+  fill: white;
+}
+
+.dark #audio button input::-webkit-slider-runnable-track {
+  background-color: #C4C4CC;
+  height: .7rem;
+  width: 100%;
+  border-radius: 2px solid;
+  border-radius: 1rem;
+
+  margin: .5rem;
+}
+
+.dark #audio button input::-webkit-slider-thumb {
+  margin-top: -.4rem;
+}
+
+.dark button svg path {
+  fill: #C4C4CC;
+}
+
+.dark #audio button {
+  background-color: #29292E;
+}
+
+.dark #audio button.active {
+  background-color: #0A3442;
 }
