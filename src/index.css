@@ -55,3 +55,60 @@ button {
   appearance: none;
   background: none;
 }
+
+
+@media (max-width: 1220px) {
+  body {
+    padding: 3rem;
+  }
+
+  #timer span {
+    font-size: 10.6rem;
+  }
+
+  #timer .controllers {
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  #audio {
+    gap: 2rem;
+  }
+
+  #audio button {
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 900px) {
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  #theme {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+
+    cursor: pointer;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  #timer span {
+    font-size: 8.6rem;
+  }
+
+  #audio {
+    gap: 1.5rem;
+  }
+
+  #audio button {
+    padding: 2rem;
+  }
+}
