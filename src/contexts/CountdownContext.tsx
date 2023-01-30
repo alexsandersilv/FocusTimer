@@ -33,8 +33,12 @@ export function CountdownProvider({ children }: { children: React.ReactNode }) {
   }
 
   function stopCountdown() {
-    clearTimeout(countdownTimeout);
-    setIsCountdownActive(false);
+    if (isCountdownActive) {
+      clearTimeout(countdownTimeout);
+      setIsCountdownActive(false);
+      setMinutes(0);
+      setSeconds(0);
+    }
   }
 
   function addFiveMinutes() {
