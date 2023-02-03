@@ -20,14 +20,27 @@ git https://github.com/alexsandersilv/FocusTimer.git
 
 # CLI
 gh repo clone alexsandersilv/FocusTimer
-
-# Dir 
-cd 
 ```
 
-## Start Project
-## de
-
+## Scripts
+### Development server
+```bash
+npm run dev 
+# or
+yarn dev
+```
+### Build Project
+```bash
+npm run build
+# or 
+yarn build
+```
+### Preview
+```bash
+npm run preview
+# or
+yarn preview
+```
 ## Application Functions
 ```sh
 # You cannot add another 5 minutes with time greater than 55 minutes && You cannot decrease the time if it is less than 5 minutes 
