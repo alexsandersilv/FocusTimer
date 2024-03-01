@@ -1,0 +1,10 @@
+C:\Users\alexs\source\repos\FocusTimer\FocusTimer\bin\Debug\FocusTimer.exe.config
+C:\Users\alexs\source\repos\FocusTimer\FocusTimer\bin\Debug\FocusTimer.exe
+C:\Users\alexs\source\repos\FocusTimer\FocusTimer\bin\Debug\FocusTimer.pdb
+C:\Users\alexs\source\repos\FocusTimer\FocusTimer\obj\Debug\FocusTimer.csproj.AssemblyReference.cache
+C:\Users\alexs\source\repos\FocusTimer\FocusTimer\obj\Debug\FocusTimer.Form1.resources
+C:\Users\alexs\source\repos\FocusTimer\FocusTimer\obj\Debug\FocusTimer.Properties.Resources.resources
+C:\Users\alexs\source\repos\FocusTimer\FocusTimer\obj\Debug\FocusTimer.csproj.GenerateResource.cache
+C:\Users\alexs\source\repos\FocusTimer\FocusTimer\obj\Debug\FocusTimer.csproj.CoreCompileInputs.cache
+C:\Users\alexs\source\repos\FocusTimer\FocusTimer\obj\Debug\FocusTimer.exe
+C:\Users\alexs\source\repos\FocusTimer\FocusTimer\obj\Debug\FocusTimer.pdb
