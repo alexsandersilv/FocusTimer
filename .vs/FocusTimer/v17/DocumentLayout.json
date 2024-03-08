@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alexs\\GitHub\\FocusTimer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{725D6F0C-6897-403F-B446-134416EE1165}|FocusTimer\\FocusTimer.csproj|C:\\Users\\alexs\\GitHub\\FocusTimer\\FocusTimer\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725D6F0C-6897-403F-B446-134416EE1165}|FocusTimer\\FocusTimer.csproj|solutionrelative:FocusTimer\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725D6F0C-6897-403F-B446-134416EE1165}|FocusTimer\\FocusTimer.csproj|c:\\users\\alexs\\github\\focustimer\\focustimer\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725D6F0C-6897-403F-B446-134416EE1165}|FocusTimer\\FocusTimer.csproj|solutionrelative:focustimer\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|FocusTimer||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725D6F0C-6897-403F-B446-134416EE1165}|FocusTimer\\FocusTimer.csproj|c:\\users\\alexs\\github\\focustimer\\focustimer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{725D6F0C-6897-403F-B446-134416EE1165}|FocusTimer\\FocusTimer.csproj|solutionrelative:focustimer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725D6F0C-6897-403F-B446-134416EE1165}|FocusTimer\\FocusTimer.csproj|c:\\users\\alexs\\github\\focustimer\\focustimer\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{725D6F0C-6897-403F-B446-134416EE1165}|FocusTimer\\FocusTimer.csproj|solutionrelative:focustimer\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\alexs\\GitHub\\FocusTimer\\FocusTimer\\Form1.cs",
+              "RelativeDocumentMoniker": "FocusTimer\\Form1.cs",
+              "ToolTip": "C:\\Users\\alexs\\GitHub\\FocusTimer\\FocusTimer\\Form1.cs [Design]",
+              "RelativeToolTip": "FocusTimer\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T15:05:48.008Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FocusTimer",
+              "DocumentMoniker": "C:\\Users\\alexs\\GitHub\\FocusTimer\\FocusTimer\\FocusTimer.csproj",
+              "RelativeDocumentMoniker": "FocusTimer\\FocusTimer.csproj",
+              "ToolTip": "C:\\Users\\alexs\\GitHub\\FocusTimer\\FocusTimer\\FocusTimer.csproj",
+              "RelativeToolTip": "FocusTimer\\FocusTimer.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-08T15:20:55.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\alexs\\GitHub\\FocusTimer\\FocusTimer\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "FocusTimer\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\alexs\\GitHub\\FocusTimer\\FocusTimer\\Form1.Designer.cs",
+              "RelativeToolTip": "FocusTimer\\Form1.Designer.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAYwG4AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T15:05:45.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\alexs\\GitHub\\FocusTimer\\FocusTimer\\Form1.cs",
+              "RelativeDocumentMoniker": "FocusTimer\\Form1.cs",
+              "ToolTip": "C:\\Users\\alexs\\GitHub\\FocusTimer\\FocusTimer\\Form1.cs",
+              "RelativeToolTip": "FocusTimer\\Form1.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAuwIkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T14:44:07.687Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

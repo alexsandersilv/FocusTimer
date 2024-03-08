@@ -15,7 +15,8 @@ namespace FocusTimer
     public partial class Form1 : Form
     {
 
-        public bool isRunning = false;
+        private bool isRunning = false;
+        private bool isWhiteTheme = true;
 
         public Form1()
         {
@@ -26,6 +27,9 @@ namespace FocusTimer
             timer.Interval = 1000; 
             timer.Tick += Timer_Tick;
         }
+
+
+    
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -108,6 +112,35 @@ namespace FocusTimer
 
             minutes.Text = "10";
             seconds.Text = "00";
+        }
+
+     
+
+        private void themes_Click(object sender, EventArgs e)
+        {
+            if (isWhiteTheme)
+            {
+                isWhiteTheme = false;
+
+                BackColor = Color.FromArgb(18, 18, 20);
+                minutes.ForeColor = Color.White;
+                separator.ForeColor = Color.White;
+                seconds.ForeColor = Color.White;
+                themes.Image = Properties.Resources.moon2;
+                return;
+            }
+
+            BackColor = Color.White;
+            minutes.ForeColor = Color.FromArgb(50, 50, 57);
+            separator.ForeColor = Color.FromArgb(50, 50, 57);
+            seconds.ForeColor = Color.FromArgb(50, 50, 57);
+            themes.Image = Properties.Resources.sun2;
+            isWhiteTheme = true;
+        }
+
+        private void themes_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

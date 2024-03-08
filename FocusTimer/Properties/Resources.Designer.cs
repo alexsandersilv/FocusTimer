@@ -61,22 +61,42 @@ namespace FocusTimer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] Roboto_Bold {
+        internal static System.Drawing.Bitmap moon {
             get {
-                object obj = ResourceManager.GetObject("Roboto_Bold", resourceCulture);
-                return ((byte[])(obj));
+                object obj = ResourceManager.GetObject("moon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] Roboto_Regular {
+        internal static System.Drawing.Bitmap moon2 {
             get {
-                object obj = ResourceManager.GetObject("Roboto_Regular", resourceCulture);
-                return ((byte[])(obj));
+                object obj = ResourceManager.GetObject("moon2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sun {
+            get {
+                object obj = ResourceManager.GetObject("sun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sun2 {
+            get {
+                object obj = ResourceManager.GetObject("sun2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

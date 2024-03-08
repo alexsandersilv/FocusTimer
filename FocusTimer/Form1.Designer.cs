@@ -1,5 +1,6 @@
 ﻿using System.Drawing;
 using System.Drawing.Text;
+using System.Windows.Forms;
 
 namespace FocusTimer
 {
@@ -38,6 +39,8 @@ namespace FocusTimer
             this.play = new System.Windows.Forms.Button();
             this.pause = new System.Windows.Forms.Button();
             this.timer = new System.Windows.Forms.Timer(this.components);
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.themes = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // minutes
@@ -97,11 +100,32 @@ namespace FocusTimer
             this.pause.UseVisualStyleBackColor = true;
             this.pause.Click += new System.EventHandler(this.pause_Click);
             // 
+            // imageList1
+            // 
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            // 
+            // themes
+            // 
+            this.themes.BackColor = System.Drawing.Color.Transparent;
+            this.themes.FlatAppearance.BorderSize = 0;
+            this.themes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.themes.Image = global::FocusTimer.Properties.Resources.sun2;
+            this.themes.Location = new System.Drawing.Point(1180, 12);
+            this.themes.Name = "themes";
+            this.themes.Size = new System.Drawing.Size(75, 48);
+            this.themes.TabIndex = 5;
+            this.themes.UseVisualStyleBackColor = false;
+            this.themes.Click += new System.EventHandler(this.themes_Click);
+            this.themes.Paint += new System.Windows.Forms.PaintEventHandler(this.themes_Paint);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1273, 705);
+            this.ClientSize = new System.Drawing.Size(1273, 616);
+            this.Controls.Add(this.themes);
             this.Controls.Add(this.pause);
             this.Controls.Add(this.play);
             this.Controls.Add(this.seconds);
@@ -122,6 +146,8 @@ namespace FocusTimer
         private System.Windows.Forms.Button play;
         private System.Windows.Forms.Button pause;
         private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.Button themes;
+        private System.Windows.Forms.ImageList imageList1;
     }
 }
 
